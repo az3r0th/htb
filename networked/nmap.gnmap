@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Sun Aug 25 06:30:00 2019 as: nmap -sV -sC -O -oA nmap 10.10.10.146
+Host: 10.10.10.146 ()	Status: Up
+Host: 10.10.10.146 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) PHP|5.4.16)/, 443/closed/tcp//https///	Ignored State: filtered (997)	Seq Index: 255	IP ID Seq: All zeros
+# Nmap done at Sun Aug 25 06:30:26 2019 -- 1 IP address (1 host up) scanned in 26.08 seconds

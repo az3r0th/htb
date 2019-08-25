@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Thu Aug  8 11:48:26 2019 as: nmap -sC -sV -O -oA nmap 10.10.10.130
+Host: 10.10.10.130 ()	Status: Up
+Host: 10.10.10.130 ()	Ports: 80/open/tcp//http//Microsoft IIS httpd 10.0/	Ignored State: filtered (999)	OS: iPXE 1.0.0+|Tomato 1.28 (Linux 2.4.20)|Tomato firmware (Linux 2.6.22)|Sony Ericsson U8i Vivaz mobile phone
+# Nmap done at Thu Aug  8 11:50:39 2019 -- 1 IP address (1 host up) scanned in 133.84 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Thu May 23 12:34:43 2019 as: nmap -sC -sV -O -oA nmap 10.10.10.119
+Host: 10.10.10.119 ()	Status: Up
+Host: 10.10.10.119 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.6 ((CentOS) OpenSSL|1.0.2k-fips mod_fcgid|2.3.9 PHP|5.4.16)/, 389/open/tcp//ldap//OpenLDAP 2.2.X - 2.3.X/	Ignored State: filtered (997)	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Thu May 23 12:35:16 2019 -- 1 IP address (1 host up) scanned in 33.19 seconds

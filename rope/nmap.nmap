@@ -1,0 +1,81 @@
+# Nmap 7.70 scan initiated Thu Aug  8 10:51:47 2019 as: nmap -sC -sV -O -oA nmap 10.10.10.148
+Nmap scan report for 10.10.10.148
+Host is up (0.42s latency).
+Not shown: 998 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 56:84:89:b6:8f:0a:73:71:7f:b3:dc:31:45:59:0e:2e (RSA)
+|   256 76:43:79:bc:d7:cd:c7:c7:03:94:09:ab:1f:b7:b8:2e (ECDSA)
+|_  256 b3:7d:1c:27:3a:c1:78:9d:aa:11:f7:c6:50:57:25:5e (ED25519)
+9999/tcp open  abyss?
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|     HTTP/1.1 200 OK
+|     Accept-Ranges: bytes
+|     Cache-Control: no-cache
+|     Content-length: 4871
+|     Content-type: text/html
+|     <!DOCTYPE html>
+|     <html lang="en">
+|     <head>
+|     <title>Login V10</title>
+|     <meta charset="UTF-8">
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <!--===============================================================================================--> 
+|     <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+|     <!--===============================================================================================-->
+|     <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+|     <!--===============================================================================================-->
+|     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+|_    <!--===============================================
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port9999-TCP:V=7.70%I=7%D=8/8%Time=5D4C3738%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,1378,"HTTP/1\.1\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCach
+SF:e-Control:\x20no-cache\r\nContent-length:\x204871\r\nContent-type:\x20t
+SF:ext/html\r\n\r\n<!DOCTYPE\x20html>\r\n<html\x20lang=\"en\">\r\n<head>\r
+SF:\n\t<title>Login\x20V10</title>\r\n\t<meta\x20charset=\"UTF-8\">\r\n\t<
+SF:meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-s
+SF:cale=1\">\r\n<!--======================================================
+SF:=========================================-->\t\r\n\t<link\x20rel=\"icon
+SF:\"\x20type=\"image/png\"\x20href=\"images/icons/favicon\.ico\"/>\r\n<!-
+SF:-======================================================================
+SF:=========================-->\r\n\t<link\x20rel=\"stylesheet\"\x20type=\
+SF:"text/css\"\x20href=\"vendor/bootstrap/css/bootstrap\.min\.css\">\r\n<!
+SF:--=====================================================================
+SF:==========================-->\r\n\t<link\x20rel=\"stylesheet\"\x20type=
+SF:\"text/css\"\x20href=\"fonts/font-awesome-4\.7\.0/css/font-awesome\.min
+SF:\.css\">\r\n<!--===============================================")%r(HTT
+SF:POptions,1378,"HTTP/1\.1\x20200\x20OK\r\nAccept-Ranges:\x20bytes\r\nCac
+SF:he-Control:\x20no-cache\r\nContent-length:\x204871\r\nContent-type:\x20
+SF:text/html\r\n\r\n<!DOCTYPE\x20html>\r\n<html\x20lang=\"en\">\r\n<head>\
+SF:r\n\t<title>Login\x20V10</title>\r\n\t<meta\x20charset=\"UTF-8\">\r\n\t
+SF:<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-
+SF:scale=1\">\r\n<!--=====================================================
+SF:==========================================-->\t\r\n\t<link\x20rel=\"ico
+SF:n\"\x20type=\"image/png\"\x20href=\"images/icons/favicon\.ico\"/>\r\n<!
+SF:--=====================================================================
+SF:==========================-->\r\n\t<link\x20rel=\"stylesheet\"\x20type=
+SF:\"text/css\"\x20href=\"vendor/bootstrap/css/bootstrap\.min\.css\">\r\n<
+SF:!--====================================================================
+SF:===========================-->\r\n\t<link\x20rel=\"stylesheet\"\x20type
+SF:=\"text/css\"\x20href=\"fonts/font-awesome-4\.7\.0/css/font-awesome\.mi
+SF:n\.css\">\r\n<!--===============================================");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=8/8%OT=22%CT=1%CU=31408%PV=Y%DS=2%DC=I%G=Y%TM=5D4C37D5
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10C%TI=Z%CI=I%II=I%TS=A)OPS(
+OS:O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11
+OS:NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(
+OS:R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS
+OS:%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=
+OS:S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug  8 10:55:17 2019 -- 1 IP address (1 host up) scanned in 210.82 seconds
